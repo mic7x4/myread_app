@@ -10,7 +10,7 @@ const BooksList= ({ updateShelf, loading, books }) => {
     <div className="app">
       <div className="list-books">
         <div className="list-books-title">
-          <h1>All myReads</h1>
+          <h1>My Read</h1>
         </div>
         {loading ? 'Loading...' : (
           <div>
